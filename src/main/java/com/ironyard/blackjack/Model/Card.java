@@ -1,4 +1,4 @@
-package com.ironyard;
+package com.ironyard.blackjack.Model;
 
 public class Card {
     int value;

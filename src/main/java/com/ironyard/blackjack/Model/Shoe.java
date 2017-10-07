@@ -1,4 +1,4 @@
-package com.ironyard;
+package com.ironyard.blackjack.Model;
 
 import java.util.List;
 import java.util.ArrayList;
