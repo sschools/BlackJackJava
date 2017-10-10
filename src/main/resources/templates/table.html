@@ -1,10 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8"/>
     <title>Blackjack Table</title>
 </head>
 <body>
     <h1>Table #1</h1>
+    <div>
+        <h5>Dealer:</h5>
+    </div>
+    <div th:each="player : ${table.getPlayers()}">
+        <h5 th:text="${player.getName()} + ':'"></h5>
+    </div>
+    <button th:if="${table.isEndHand()}" name="deal">Deal</button>
+
 </body>
 </html>

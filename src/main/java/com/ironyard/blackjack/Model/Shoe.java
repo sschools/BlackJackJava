@@ -5,10 +5,10 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class Shoe {
-    int numDecks;
-    int index;
-    int yellow;
-    List<Card> shoeCards;
+    private int numDecks;
+    private int index;
+    private int yellow;
+    private List<Card> shoeCards;
 
     public Shoe() {
 
